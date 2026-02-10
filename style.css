@@ -1,0 +1,114 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333; /* Added for readability */
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #2d6a4f; /* Updated to a forest green to match mushroom farming theme */
+  color: white; /* Contrast for the new background */
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.cta {
+  padding: 15px 30px;
+  font-size: 1rem;
+  background-color: #40916c; /* Matching green theme */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cta:hover {
+  background-color: #1b4332;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.feature-card {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.feature-card h3 {
+  color: #2d6a4f;
+}
+
+.visual {
+  padding: 40px 0;
+}
+
+.visual img {
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.info {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.info h2 {
+  color: #2d6a4f;
+  border-bottom: 2px solid #d8f3dc;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.info ul {
+  padding-left: 20px;
+}
+
+.info li {
+  margin-bottom: 10px;
+}
+
+.cta-final {
+  text-align: center;
+  padding: 70px 20px;
+  background-color: #f5f5f5;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1b4332;
+  color: #fff;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .features {
+    flex-direction: column;
+  }
+  .feature-card {
+    margin: 10px 0;
+  }
+}
