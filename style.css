@@ -10,8 +10,12 @@ body {
 .hero {
   text-align: center;
   padding: 100px 20px;
-  background-color: #2d6a4f; /* Updated to a forest green to match mushroom farming theme */
-  color: white; /* Contrast for the new background */
+  /* This creates a dark overlay so your white text is easy to read */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+              url('Mushroom-Farming.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
 
 .hero p {
